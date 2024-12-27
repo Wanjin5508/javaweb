@@ -69,33 +69,38 @@ Maven是apache旗下的一个开源项目，是一款用于管理和*构建*java
 
 新版本 idea 使用 quickstart
 
+##### 导入Maven 项目
+![[Pasted image 20241227200853.png]]
+
+![[Pasted image 20241227201748.png]]
+
 
 ### 依赖管理
 #### 依赖配置
 
-1. 依赖：指当前项目运行所需要的jar包，一个项目中可以引入多个依赖。
+1. 依赖：指当前项目运行所需要的 *jar* 包，一个项目中可以引入多个依赖。
 2. 配置：
     - 在 pom.xml 中编写 `<dependencies>` 标签
     - 在 `<dependencies> 标签中 使用 ` `<dependency>` 引入坐标
       - 定义坐标的 groupId，artifactId，version
-       - 点击刷新按钮，引入最新加入的坐标 
+       - 点击*刷新*按钮，引入最新加入的坐标 
     
-```
+```xml
 <dependencies>
 <dependency>        
-	<groupId>ch.qos.logback</groupId>   
-	<artifactId>logback-classic</artifactId>        
+	<groupId>ch.qos.logback</groupId>   // 第二步 组织id
+	<artifactId>logback-classic</artifactId>     // 第一步：资源名   
 	<version>1.2.3</version>  
 </dependency>
 </dependencies>
 ```
     
 1. 如果引入的依赖，在本地仓库不存在，将会连接远程仓库/中央仓库，然后下载依赖。（这个过程会比较耗时，耐心等待）
-2. 如果不知道依赖的坐标信息，可以到 https://mvnrepository.com/ 中搜索。
+2. 如果*不知道依赖的坐标信息*，可以到 https://mvnrepository.com/ 中搜索。还可以查看某个版本的使用次数
 
 
 ####  依赖传递
-
+![[Pasted image 20241227202939.png]]
 1. 依赖具有传递性
     - 直接依赖：在当前项目中通过依赖配置建立的依赖关系
     - 间接依赖：被依赖的资源如果依赖其他资源，当前项目间接依赖其他资源
@@ -116,8 +121,15 @@ Maven是apache旗下的一个开源项目，是一款用于管理和*构建*java
      </exclusions>
     </dependency>
     ```
+
+#### 排除依赖
+![[Pasted image 20241227204433.png]]
+如果A依赖了B，B依赖C，那么A中也会有jar包，但是我们在项目A中不需要这个jar
+
+exclusions可以包含多个依赖
+
 #### 依赖范围
-1. 依赖的jar包，默认情况下，可以在任何地方使用。可以通过 `<scope>…</ scope >` 设置其作用范围。
+1. 依赖的jar包，*默认*情况下，可以在任何地方使用。可以通过 `<scope>…</ scope >` 设置其作用范围。
 2. 作用范围：
     - 主程序范围有效。（main文件夹范围内）
     - 测试程序范围有效。（test文件夹范围内）
@@ -133,31 +145,48 @@ Maven是apache旗下的一个开源项目，是一款用于管理和*构建*java
     ![Alt text](pictures/java_web入门第3天03.png)
 #### 生命周期
 1. Maven的生命周期就是为了对所有的maven项目构建过程进行抽象和统一。
-2. Maven中有3套相互独立的生命周期：
-    - clean：清理工作。
+2. Maven中有*3套*相互独立的生命周期：
+    - clean：清理工作，清理上一次项目构建产生的文件，例如class文件和jar文件。
     - default：核心工作，如：编译、测试、打包、安装、部署等。
-    - site：生成报告、发布站点等。
+    - site：生成报告、发布站点等，很少用。
 3. 每套生命周期包含一些阶段（phase），阶段是有顺序的，后面的阶段依赖于前面的阶段。
     ![Alt text](pictures/java_web入门第3天04.png)
-4. 生命周期阶段
+4. 使用maven 生命周期阶段
     - clean：移除上一次构建生成的文件
-    - compile：编译项目源代码
+    - compile：编译项目源代码, 字节码文件出现在`target`目录中
     - test：使用合适的单元测试框架运行测试(junit)
     - package：将编译后的文件打包，如：jar、war等
     - install：安装项目到本地仓库
-5. 在同一套生命周期中，当运行后面的阶段时，前面的阶段都会运行。
-6. 执行指定生命周期的两种方式：
+    - ![[Pasted image 20241227205957.png]]
+1. 在***同一套***生命周期中，*当运行后面的阶段时，前面的阶段都会运行*。
+2. 执行指定生命周期的两种方式：
     - 在idea中，右侧的maven工具栏，选中对应的生命周期，双击执行。
     - 在命令行中，通过命令执行。
+	    - `mvn clean`
+		- `mvn compile`
+		- `mvn package`
+		- `mvn test`
+
+
+
 ## SpringBootWeb 入门
 ### Spring
-1. 官网：spring.io
+1. 官网：`spring.io`
 2. Spring发展到今天已经形成了一种开发生态圈，Spring提供了若干个子项目，每个项目用于完成特定的功能。
 ![Alt text](pictures/java_web入门第3天05.png)
-3. Spring 配置繁琐、入门难度大； Spring Boot 简化配置、快速开发
+3. Spring Framework 配置繁琐、入门难度大； Spring Boot 简化配置、快速开发
 4. Spring Boot 可以帮助我们非常快速的构建应用程序、简化开发、提高效率 。
+5. cloud创建微服务，将大块业务分割成小的
 ### SpringBootWeb入门
 例子： 创建 SpringBoot 项目
+![[Pasted image 20241227211614.png]]
+
+1. 创建 springboot 模块，并勾选web开发相关的依赖 》》 注意不是maven，而是spring，需要专业版
+2. 定义 HelloController 类，添加方法 hello 并添加注解
+3. 运行测试
+
+![[Pasted image 20241227213423.png]]
+
 ### HTTP协议
 #### HTTP-概述
 1. 概念：Hyper Text Transfer Protocol，超文本传输协议，规定了浏览器和服务器之间数据传输的规则。
