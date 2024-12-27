@@ -1,0 +1,210 @@
+{
+  "main": {
+    "id": "6b205c1d01ad05f3",
+    "type": "split",
+    "children": [
+      {
+        "id": "dbfa63dbd841854b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ce8585d97b4ae4db",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Java_Web-main/Java_Web-main/day04-Maven-SpringBootWeb入门.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fed210f0c2eda743",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "out/production/javaweb/day03-Vue-Element/资料/接口文档示例/接口文档-示例.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "9435db9b506b1e3b",
+    "type": "split",
+    "children": [
+      {
+        "id": "4c1786f513afae03",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6ad6487c9c779cde",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "7508fa75ceeb9c4f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "bcc3682c2f9d9a4d",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "8ca058ccdf3c768f",
+    "type": "split",
+    "children": [
+      {
+        "id": "84c3eb6f2f5c9c44",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bb7cf3c56b4aed10",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Java_Web-main/Java_Web-main/day04-Maven-SpringBootWeb入门.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "2cef896b18657a3d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Java_Web-main/Java_Web-main/day04-Maven-SpringBootWeb入门.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "9b648213c0884696",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "22b51d440c260db7",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Java_Web-main/Java_Web-main/day04-Maven-SpringBootWeb入门.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "ce8585d97b4ae4db",
+  "lastOpenFiles": [
+    "Java_Web-main/Java_Web-main/pictures/Pasted image 20241227170904.png",
+    "Java_Web-main/Java_Web-main/pictures/Pasted image 20241227165326.png",
+    "src/day03-Vue-Element/vue/vue-project/node_modules/babel-plugin-dynamic-import-node/lib/utils.js",
+    "src/day03-Vue-Element/vue/vue-project/node_modules/babel-plugin-dynamic-import-node/lib/index.js",
+    "src/day03-Vue-Element/vue/vue-project/node_modules/babel-plugin-dynamic-import-node/LICENSE",
+    "src/day03-Vue-Element/vue/vue-project/node_modules/babel-plugin-dynamic-import-node/utils.js",
+    "src/day03-Vue-Element/vue/vue-project/node_modules/babel-plugin-dynamic-import-node/README.md",
+    "src/day03-Vue-Element/vue/vue-project/node_modules/babel-plugin-dynamic-import-node/lib",
+    "src/day03-Vue-Element/vue/vue-project/node_modules/babel-plugin-dynamic-import-node/package.json",
+    "src/day03-Vue-Element/vue/vue-project/node_modules/babel-plugin-dynamic-import-node/CHANGELOG.md",
+    "src/day03-Vue-Element/vue/vue-project/node_modules/babel-plugin-dynamic-import-node",
+    "src/day03-Vue-Element/vue/vue-project/node_modules/@babel/plugin-transform-unicode-sets-regex/lib/index.js.map",
+    "src/day03-Vue-Element/vue/vue-project/node_modules/@babel/plugin-transform-unicode-sets-regex/lib/index.js",
+    "src/day03-Vue-Element/vue/vue-project/node_modules/@babel/plugin-transform-unicode-sets-regex/README.md",
+    "src/day03-Vue-Element/vue/vue-project/node_modules/@babel/plugin-transform-unicode-sets-regex/package.json",
+    "src/day03-Vue-Element/vue/vue-project/node_modules/@babel/plugin-transform-numeric-separator/README.md",
+    "src/day03-Vue-Element/vue/vue-project/node_modules/@babel/plugin-transform-nullish-coalescing-operator/README.md",
+    "src/day03-Vue-Element/vue/vue-project/node_modules/@babel/plugin-syntax-unicode-sets-regex/README.md",
+    "src/day03-Vue-Element/vue/vue-project/node_modules/@babel/plugin-syntax-import-attributes/README.md",
+    "src/day03-Vue-Element/vue/vue-project/node_modules/@babel/plugin-syntax-import-assertions/README.md",
+    "Java_Web-main/Java_Web-main/pictures/Pasted image 20241227162810.png",
+    "src/day03-Vue-Element/代码/vue-project(Element-案例)/vue-project/node_modules/yargs-parser/README.md",
+    "src/day03-Vue-Element/代码/vue-project(Element-案例)/vue-project/node_modules/yargs-parser/CHANGELOG.md",
+    "src/day03-Vue-Element/代码/vue-project(Element-案例)/vue-project/node_modules/yaml/README.md",
+    "src/day03-Vue-Element/代码/vue-project(Element-案例)/vue-project/node_modules/websocket-driver/README.md",
+    "src/day03-Vue-Element/代码/vue-project(Element-案例)/vue-project/node_modules/websocket-driver/LICENSE.md",
+    "src/day03-Vue-Element/代码/vue-project(Element-案例)/vue-project/node_modules/websocket-driver/CHANGELOG.md",
+    "src/day03-Vue-Element/代码/vue-project(Element-案例)/vue-project/node_modules/webpack-virtual-modules/README.md",
+    "src/day03-Vue-Element/代码/vue-project(Element-案例)/vue-project/node_modules/wcwidth/docs/index.md",
+    "src/day03-Vue-Element/代码/vue-project(Element-案例)/vue-project/node_modules/wcwidth/Readme.md",
+    "src/day03-Vue-Element/代码/vue-project(Element-案例)/vue-project/node_modules/wbuf/README.md",
+    "src/day03-Vue-Element/代码/vue-project(Element-案例)/vue-project/node_modules/watchpack/README.md",
+    "src/day03-Vue-Element/代码/vue-project(Element-案例)/vue-project/node_modules/vue-template-es2015-compiler/README.md",
+    "src/day03-Vue-Element/代码/vue-project(Element-案例)/vue-project/node_modules/util-deprecate/README.md",
+    "src/day03-Vue-Element/代码/vue-project(Element-案例)/vue-project/node_modules/util-deprecate/History.md",
+    "src/day03-Vue-Element/代码/vue-project(Element-案例)/vue-project/node_modules/utila/README.md",
+    "src/day03-Vue-Element/代码/vue-project(Element-案例)/vue-project/node_modules/uri-js/README.md",
+    "src/day03-Vue-Element/代码/vue-project(Element-案例)/vue-project/node_modules/update-browserslist-db/README.md",
+    "src/day03-Vue-Element/代码/vue-project(Element-案例)/vue-project/node_modules/@vue/cli-service/generator/template/src/assets/logo.png",
+    "src/day03-Vue-Element/代码/vue-project(Element-案例)/vue-project/node_modules/@vue/cli-service/logo.png",
+    "src/day03-Vue-Element/代码/vue-project(Element-案例)/vue-project/node_modules/@vue/cli-plugin-eslint/logo.png",
+    "src/day03-Vue-Element/代码/vue-project(Element-案例)/vue-project/node_modules/@vue/cli-plugin-babel/logo.png",
+    "src/day04-Maven-SpringBootWeb入门/资料/SpringbootWeb/03. Springboot项目(手动构建)/assets/image-20221017095239911.png",
+    "src/day04-Maven-SpringBootWeb入门/资料/SpringbootWeb/03. Springboot项目(手动构建)/assets/image-20221017094510482.png",
+    "src/day04-Maven-SpringBootWeb入门/资料/SpringbootWeb/03. Springboot项目(手动构建)/assets/image-20221017094402319.png",
+    "src/day04-Maven-SpringBootWeb入门/讲义/02. SpringBootWeb入门/assets/image-20221202205318778.png"
+  ]
+}
